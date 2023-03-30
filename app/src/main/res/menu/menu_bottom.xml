@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cl.hardcoder.game_of_life.MainActivity">
+    <item
+        android:id="@+id/bn_item_playground"
+        android:icon="@drawable/baseline_videogame_asset_24"
+        android:title="@string/playground_nav_label"/>
+    <item
+        android:id="@+id/bn_item_hub"
+        android:icon="@drawable/baseline_gesture_24"
+        android:title="@string/hub_nav_label"/>
+    <item
+        android:id="@+id/bn_item_info"
+        android:icon="@drawable/baseline_info_24"
+        android:title="@string/info_nav_label"/>
+</menu>
